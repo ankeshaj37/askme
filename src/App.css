@@ -4,3 +4,255 @@
     flex-direction: column;
     position: relative;
 }
+.footer{
+    background-color: black;
+    height: auto;
+    margin-top: auto;
+    color: orange;
+    font-size: 30px;
+    padding: 25px;
+   
+}
+.footerr{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.ulfooter{
+    list-style: none;
+    font-size: 18px;
+}
+.ssd{
+    display: flex;
+    justify-content: center;
+}
+.ssdd{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 992px) {
+    .ssd{
+        display: flex;
+        justify-content: left;
+    }
+    .ssdd{
+        display: flex;
+        justify-content: left;
+      
+    }
+  }
+
+  .search-box {
+    position: absolute;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    background: gainsboro;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .search-box {
+        position: absolute;
+        margin-left: 50px;
+        transform: translate(-50%, -50%);
+        background: gainsboro;
+        height: 40px;
+        display: flex;
+    }
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+}
+.serchbtn{
+    margin-top: -10px;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    
+}
+
+.aa {
+    margin: 50px;
+}
+
+.serchbtn {
+    width: 30px;
+}
+
+.imgaecard{
+    width: 75%;
+}
+.boxx{
+    background-color: rgb(196, 193, 193);
+    padding: 3%;
+    margin: 4%;
+}
+.imageboxx{
+   
+    background-size: cover;
+}
+.sssa{
+  width: 100%;
+}
+.divim{
+  width: 460px;
+  display: flex;
+  justify-content: center;
+}
+.sssa:hover{
+  transform: scale(1.5);
+ 
+}
+
+
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 black;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 black;
+  }
+  
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px black;
+  }
+  
+  .slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 black;
+  }
+  
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+  }
+  .nav{
+    background-color:black;
+  }
+
+  .names{
+    color: white;
+  }
+  
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        #f8b526 0%,
+        #f51111 29%,
+        #0f0f0f 67%,
+        #fd4726 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size:30px;
+    font-weight: 700;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .sudiv {
+    display: flex;
+    justify-content: right;
+  }
+
+  .tog {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  .togg {
+    margin: 20px;
+  }
+  .linku {
+    text-decoration: none;
+    color: black;
+  }
+  .linku:hover{
+ background-color: rgb(108, 175, 252);
+ 
+  }
+  .burgrr{
+    height: 50px;
+    margin-top: -10px;
+    margin-left:25px;
+    padding: 5px;
+    border: none;
+    position: relative;
+  }
+  .linkss {
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 5px;
+
+}
+.logoimages{
+  width: 20%;
+}
+
+@media screen and (max-width: 480px) {
+  .logoimages{
+    width: 100%;
+  }
+}
+.avtar{
+  width: 50px;
+  margin-top: 15px;
+  position: absolute;
+  margin-right: -15px;
+}
+  
+  
+  

@@ -1,17 +1,17 @@
 
 import React from 'react'
-import Footer from './Footer'
-import Home from './Home'
-import Navbar from './Navbar'
 import './App.css'
+import Footer from './component/Footer'
+import Home from './component/Home'
+import Navbar from './component/Navbar'
 
 const App = () => {
   return (
     <>
       <div className='app'>
-        <Navbar />
-        <Home />
-        <Footer />
+        <Navbar/>
+        <Home/>
+        <Footer/>
       </div>
     </>
 
@@ -20,3 +20,4 @@ const App = () => {
 }
 
 export default App
+
